@@ -9,7 +9,7 @@ lazy val root = project
     organizationName := "Techmonad",
     useScala3doc := true,
     scalaVersion := dottyVersion,
-    libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.2" % "test"
+    libraryDependencies += "com.github.sbt" % "junit-interface" % "0.13.3" % "test"
   )
 
 addCommandAlias("fmt", ";scalafmtSbt;scalafmt;test:scalafmt")
