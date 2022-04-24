@@ -1,5 +1,7 @@
 val dottyVersion = "3.0.0-M3"
 
+Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.ScalaLibrary
+
 lazy val root = project
   .in(file("."))
   .settings(
